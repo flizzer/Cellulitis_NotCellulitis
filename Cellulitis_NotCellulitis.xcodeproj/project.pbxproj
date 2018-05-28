@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FC495EF20BC42D000FDB7A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC495EE20BC42D000FDB7A8 /* AppDelegate.swift */; };
+		4FC495F120BC42D000FDB7A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC495F020BC42D000FDB7A8 /* ViewController.swift */; };
+		4FC495F420BC42D000FDB7A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC495F220BC42D000FDB7A8 /* Main.storyboard */; };
+		4FC495F620BC42D100FDB7A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC495F520BC42D100FDB7A8 /* Assets.xcassets */; };
+		4FC495F920BC42D100FDB7A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FC495F720BC42D100FDB7A8 /* LaunchScreen.storyboard */; };
+		4FC4960420BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4960320BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.swift */; };
+		4FC4960F20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC4960E20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FC4960020BC42D100FDB7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC495E320BC42CF00FDB7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC495EA20BC42D000FDB7A8;
+			remoteInfo = Cellulitis_NotCellulitis;
+		};
+		4FC4960B20BC42D100FDB7A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FC495E320BC42CF00FDB7A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FC495EA20BC42D000FDB7A8;
+			remoteInfo = Cellulitis_NotCellulitis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FC495EB20BC42D000FDB7A8 /* Cellulitis_NotCellulitis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cellulitis_NotCellulitis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC495EE20BC42D000FDB7A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FC495F020BC42D000FDB7A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FC495F320BC42D000FDB7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FC495F520BC42D100FDB7A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FC495F820BC42D100FDB7A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FC495FA20BC42D100FDB7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC495FF20BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cellulitis_NotCellulitisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC4960320BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cellulitis_NotCellulitisTests.swift; sourceTree = "<group>"; };
+		4FC4960520BC42D100FDB7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FC4960A20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cellulitis_NotCellulitisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FC4960E20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cellulitis_NotCellulitisUITests.swift; sourceTree = "<group>"; };
+		4FC4961020BC42D100FDB7A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FC495E820BC42D000FDB7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC495FC20BC42D100FDB7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC4960720BC42D100FDB7A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FC495E220BC42CF00FDB7A8 = {
+			isa = PBXGroup;
+			children = (
+				4FC495ED20BC42D000FDB7A8 /* Cellulitis_NotCellulitis */,
+				4FC4960220BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests */,
+				4FC4960D20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests */,
+				4FC495EC20BC42D000FDB7A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FC495EC20BC42D000FDB7A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FC495EB20BC42D000FDB7A8 /* Cellulitis_NotCellulitis.app */,
+				4FC495FF20BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.xctest */,
+				4FC4960A20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FC495ED20BC42D000FDB7A8 /* Cellulitis_NotCellulitis */ = {
+			isa = PBXGroup;
+			children = (
+				4FC495EE20BC42D000FDB7A8 /* AppDelegate.swift */,
+				4FC495F020BC42D000FDB7A8 /* ViewController.swift */,
+				4FC495F220BC42D000FDB7A8 /* Main.storyboard */,
+				4FC495F520BC42D100FDB7A8 /* Assets.xcassets */,
+				4FC495F720BC42D100FDB7A8 /* LaunchScreen.storyboard */,
+				4FC495FA20BC42D100FDB7A8 /* Info.plist */,
+			);
+			path = Cellulitis_NotCellulitis;
+			sourceTree = "<group>";
+		};
+		4FC4960220BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC4960320BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.swift */,
+				4FC4960520BC42D100FDB7A8 /* Info.plist */,
+			);
+			path = Cellulitis_NotCellulitisTests;
+			sourceTree = "<group>";
+		};
+		4FC4960D20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FC4960E20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.swift */,
+				4FC4961020BC42D100FDB7A8 /* Info.plist */,
+			);
+			path = Cellulitis_NotCellulitisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FC495EA20BC42D000FDB7A8 /* Cellulitis_NotCellulitis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC4961320BC42D100FDB7A8 /* Build configuration list for PBXNativeTarget "Cellulitis_NotCellulitis" */;
+			buildPhases = (
+				4FC495E720BC42D000FDB7A8 /* Sources */,
+				4FC495E820BC42D000FDB7A8 /* Frameworks */,
+				4FC495E920BC42D000FDB7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cellulitis_NotCellulitis;
+			productName = Cellulitis_NotCellulitis;
+			productReference = 4FC495EB20BC42D000FDB7A8 /* Cellulitis_NotCellulitis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FC495FE20BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC4961620BC42D100FDB7A8 /* Build configuration list for PBXNativeTarget "Cellulitis_NotCellulitisTests" */;
+			buildPhases = (
+				4FC495FB20BC42D100FDB7A8 /* Sources */,
+				4FC495FC20BC42D100FDB7A8 /* Frameworks */,
+				4FC495FD20BC42D100FDB7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC4960120BC42D100FDB7A8 /* PBXTargetDependency */,
+			);
+			name = Cellulitis_NotCellulitisTests;
+			productName = Cellulitis_NotCellulitisTests;
+			productReference = 4FC495FF20BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FC4960920BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FC4961920BC42D100FDB7A8 /* Build configuration list for PBXNativeTarget "Cellulitis_NotCellulitisUITests" */;
+			buildPhases = (
+				4FC4960620BC42D100FDB7A8 /* Sources */,
+				4FC4960720BC42D100FDB7A8 /* Frameworks */,
+				4FC4960820BC42D100FDB7A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC4960C20BC42D100FDB7A8 /* PBXTargetDependency */,
+			);
+			name = Cellulitis_NotCellulitisUITests;
+			productName = Cellulitis_NotCellulitisUITests;
+			productReference = 4FC4960A20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FC495E320BC42CF00FDB7A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brian Davis";
+				TargetAttributes = {
+					4FC495EA20BC42D000FDB7A8 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					4FC495FE20BC42D100FDB7A8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4FC495EA20BC42D000FDB7A8;
+					};
+					4FC4960920BC42D100FDB7A8 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 4FC495EA20BC42D000FDB7A8;
+					};
+				};
+			};
+			buildConfigurationList = 4FC495E620BC42CF00FDB7A8 /* Build configuration list for PBXProject "Cellulitis_NotCellulitis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FC495E220BC42CF00FDB7A8;
+			productRefGroup = 4FC495EC20BC42D000FDB7A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FC495EA20BC42D000FDB7A8 /* Cellulitis_NotCellulitis */,
+				4FC495FE20BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests */,
+				4FC4960920BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FC495E920BC42D000FDB7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC495F920BC42D100FDB7A8 /* LaunchScreen.storyboard in Resources */,
+				4FC495F620BC42D100FDB7A8 /* Assets.xcassets in Resources */,
+				4FC495F420BC42D000FDB7A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC495FD20BC42D100FDB7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC4960820BC42D100FDB7A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FC495E720BC42D000FDB7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC495F120BC42D000FDB7A8 /* ViewController.swift in Sources */,
+				4FC495EF20BC42D000FDB7A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC495FB20BC42D100FDB7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC4960420BC42D100FDB7A8 /* Cellulitis_NotCellulitisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FC4960620BC42D100FDB7A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC4960F20BC42D100FDB7A8 /* Cellulitis_NotCellulitisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC4960120BC42D100FDB7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC495EA20BC42D000FDB7A8 /* Cellulitis_NotCellulitis */;
+			targetProxy = 4FC4960020BC42D100FDB7A8 /* PBXContainerItemProxy */;
+		};
+		4FC4960C20BC42D100FDB7A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FC495EA20BC42D000FDB7A8 /* Cellulitis_NotCellulitis */;
+			targetProxy = 4FC4960B20BC42D100FDB7A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FC495F220BC42D000FDB7A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC495F320BC42D000FDB7A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FC495F720BC42D100FDB7A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FC495F820BC42D100FDB7A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FC4961120BC42D100FDB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FC4961220BC42D100FDB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FC4961420BC42D100FDB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3ZQV82X79;
+				INFOPLIST_FILE = Cellulitis_NotCellulitis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianDavis.Cellulitis-NotCellulitis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FC4961520BC42D100FDB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3ZQV82X79;
+				INFOPLIST_FILE = Cellulitis_NotCellulitis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianDavis.Cellulitis-NotCellulitis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FC4961720BC42D100FDB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3ZQV82X79;
+				INFOPLIST_FILE = Cellulitis_NotCellulitisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianDavis.Cellulitis-NotCellulitisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cellulitis_NotCellulitis.app/Cellulitis_NotCellulitis";
+			};
+			name = Debug;
+		};
+		4FC4961820BC42D100FDB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3ZQV82X79;
+				INFOPLIST_FILE = Cellulitis_NotCellulitisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianDavis.Cellulitis-NotCellulitisTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cellulitis_NotCellulitis.app/Cellulitis_NotCellulitis";
+			};
+			name = Release;
+		};
+		4FC4961A20BC42D100FDB7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3ZQV82X79;
+				INFOPLIST_FILE = Cellulitis_NotCellulitisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianDavis.Cellulitis-NotCellulitisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cellulitis_NotCellulitis;
+			};
+			name = Debug;
+		};
+		4FC4961B20BC42D100FDB7A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3ZQV82X79;
+				INFOPLIST_FILE = Cellulitis_NotCellulitisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BrianDavis.Cellulitis-NotCellulitisUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cellulitis_NotCellulitis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FC495E620BC42CF00FDB7A8 /* Build configuration list for PBXProject "Cellulitis_NotCellulitis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC4961120BC42D100FDB7A8 /* Debug */,
+				4FC4961220BC42D100FDB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC4961320BC42D100FDB7A8 /* Build configuration list for PBXNativeTarget "Cellulitis_NotCellulitis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC4961420BC42D100FDB7A8 /* Debug */,
+				4FC4961520BC42D100FDB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC4961620BC42D100FDB7A8 /* Build configuration list for PBXNativeTarget "Cellulitis_NotCellulitisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC4961720BC42D100FDB7A8 /* Debug */,
+				4FC4961820BC42D100FDB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FC4961920BC42D100FDB7A8 /* Build configuration list for PBXNativeTarget "Cellulitis_NotCellulitisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FC4961A20BC42D100FDB7A8 /* Debug */,
+				4FC4961B20BC42D100FDB7A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FC495E320BC42CF00FDB7A8 /* Project object */;
+}
