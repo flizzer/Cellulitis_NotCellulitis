@@ -61,7 +61,17 @@ class ViewController: UIViewController
                     fatalError("Could not get request results!")
                 }
             
-                print(results)
+            if let classification = results.first {
+                if classification.identifier == "cellulitis" {
+                    self.navigationItem.title =
+                        "Cellulitis with a confidence of \(classification.confidence)!"
+                }
+                else
+                {
+                    self.navigationItem.title =
+                        "Not Cellulitis with a confidence of \(classification.confidence)!"
+                }
+            }
         }
         
         let handler = VNImageRequestHandler(ciImage: ciImage)
