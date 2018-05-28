@@ -32,10 +32,47 @@ class ViewController: UIViewController
     
     func imagePickerController(_ picker: UIImagePickerController
         , didFinishPickingMediaWithInfo info: [String : Any]) {
-        if let imagePicked = info[UIImagePickerControllerOriginalImage] as? UIImage {
-            imageView.image = imagePicked
+        if let imagePicked = info[UIImagePickerControllerOriginalImage]
+            as? UIImage {
+                imageView.image = imagePicked
+            
+            guard let ciImage = CIImage(image: imagePicked) else {
+                fatalError("Could not convert UIImage to CIImage!")
+            }
+            
+            detect(ciImage: ciImage)
         }
         imagePicker.dismiss(animated: true, completion: nil)
+    }
+    
+    func detect(ciImage: CIImage)
+    {
+        guard let model = try? VNCoreMLModel(
+            for: cellulitis_notcellulitis().model) else {
+            fatalError("Loading of Cellulitis_NotCellulitis Model failed!")
+        }
+        
+        let request = VNCoreMLRequest(model: model) {
+            (request, error) in
+                guard let results = request.results
+                    as? [VNClassificationObservation]
+                else
+                {
+                    fatalError("Could not get request results!")
+                }
+            
+                print(results)
+        }
+        
+        let handler = VNImageRequestHandler(ciImage: ciImage)
+        
+        do {
+            try handler.perform([request])
+        }
+        catch {
+            print(error)
+        }
+        
     }
     
     
